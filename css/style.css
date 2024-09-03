@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,700|Lato:300,400");
+    
+/* General Styling */
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #f7f9fc;
+  color: #333;
+}
+
+h2, h3 {
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0.05em;
+  margin-bottom: 1rem;
+}
+
+p {
+  line-height: 1.8;
+}
+
+/* Navbar */
+.navbar {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(135deg, #1c92d2, #f2fcfe);
+}
+
+.navbar .navbar-nav .nav-link {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  color: #ffc107;
+}
+
+/* Intro Section */
+.block-intro {
+  text-align: center;
+  background: #f2f4f7;
+  padding: 80px 20px;
+}
+
+.block-intro img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.block-intro p {
+  font-size: 1.25rem;
+  color: #555;
+}
+
+/* Section Styling */
+.cv-block {
+  padding: 60px 20px;
+}
+
+.cv-block h2 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.cv-block.info .item {
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #ddd;
+}
+
+.cv-block.info .item:last-child {
+  border-bottom: none;
+}
+
+.cv-block.info .organization {
+  background-color: #17a2b8;
+}
+
+/* Progress Bars */
+.progress-bar {
+  background-color: #1c92d2;
+  transition: width 0.6s ease;
+}
+
+/* Contact Section */
+.info-card.contact-info {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.info-card.contact-info .row {
+  margin-bottom: 15px;
+}
+
+.info-card.contact-info .icon {
+  color: #1c92d2;
+}
+
+/* Footer */
+.page-footer {
+  background: #1c92d2;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.social-icons a {
+  color: #fff;
+  background-color: #1c92d2;
+  margin: 0 10px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.social-icons a:hover {
+  background-color: #fff;
+  color: #1c92d2;
+}
+
+/* Hover Effects */
+.cv-block.info .group:hover .item {
+  border-bottom-color: #1c92d2;
+}
+
+.cv-block .btn:hover {
+  background-color: #ffc107;
+}
